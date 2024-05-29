@@ -1,0 +1,23 @@
+  3-
+package ex03;
+
+
+public class Ex03 {
+
+   
+      public static void iguais() {
+String nome1 = "julia";
+String nome2 = "rafela";
+boolean iguais = nome1.equals(nome2);
+if (iguais == true) {
+System.out.println("Os nomes são iguais");
+} else {
+System.out.println("Os nomes não são iguais");
+}
+}
+public static void main(String[] args) {
+iguais();
+}
+}
+    
+    

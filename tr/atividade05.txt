@@ -1,0 +1,21 @@
+5-
+package ex05;
+
+public class Ex05 {
+
+    
+        public static void iguais() {
+String nome1 = "Julinha";
+String nome2 = "Julinha";
+boolean iguais = nome1.equals(nome2);
+if (iguais == true) {
+System.out.println("os nomes sao iguais");
+} else {
+System.out.println("os nomes nao sao iguais");
+}
+}
+public static void main(String[] args) {
+iguais();
+    }
+    
+}
